@@ -127,7 +127,7 @@ void setup() {
       continue;
     }
     String[] pts = line.split("\t");
-    if(pts.length >= column){
+    if(pts.length > column){
       String countryName = toAlpha(pts[countryColumn].toLowerCase().replaceAll("\"","").trim());
       String countryCode = toAlpha(countries.get(countryName));
       float value = parseFloat(toNum(pts[column]));
