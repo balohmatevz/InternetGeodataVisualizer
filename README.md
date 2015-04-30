@@ -21,3 +21,5 @@ or from green at minimum to red at maximum or any other colour combination.
 
 This visualization program was developed by Liam :D as part of a university course. Upgrades
 and bugfixes are accepted at https://github.com/balohmatevz/InternetGeodataVisualizer
+
+![The probram with default data](http://ss13.eu/dump/laptop/2015-04-30/2015-04-30_16-21-38.png)
