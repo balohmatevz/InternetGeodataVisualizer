@@ -23,3 +23,5 @@ This visualization program was developed by Liam :D as part of a university cour
 and bugfixes are accepted at https://github.com/balohmatevz/InternetGeodataVisualizer
 
 ![The probram with default data](http://ss13.eu/dump/laptop/2015-04-30/2015-04-30_16-21-38.png)
+
+If a country name to iso code translation is missing, you can easily add it into the countries.csv file. Only the first and last column are important. 
