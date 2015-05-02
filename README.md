@@ -41,20 +41,26 @@ Missing country entry fixed
 
 Note: Only the letter (alpha) representation is applied and upper/lower case does not matter. only English alphabet characters are used in matching. So "ALBANIA" == "ALB#ANIA" == "Albania" == "Alba nia" == "albaŠŠŠŠnia" == "alba,;nia". Also note that the program expects 5 columns in the coutnries.csv file, all of which begin and end with a quote (") character with no whitespaces on either side. If you are adding a completely new coutnry, the row should look like this:
 
-"XK","","","","KOSOVO"
+- "XK","","","","KOSOVO"
 
 All of the following WILL NOT work:
-"XK",,,,"KOSOVO"
-"XK","KOSOVO"
-XK,"","","","KOSOVO"
-"XK","","","",KOSOVO
-"XK", "", "", "", "KOSOVO"
-"XK" ,"" , "" , "" , "KOSOVO"
+- "XK",,,,"KOSOVO"
+- "XK","KOSOVO"
+- XK,"","","","KOSOVO"
+- "XK","","","",KOSOVO
+- "XK", "", "", "", "KOSOVO"
+- "XK" ,"" , "" , "" , "KOSOVO"
 
 Note 2: The leftmost column must contain the coutnry's [ISO code](https://en.wikipedia.org/wiki/ISO_3166-1), as those are the names of the elements in the SVG (scalable vector graphic), which makes up the background. If you are editing the SVG, make sure each graphic or layer, which represents a country, is named with the ISO code for that country in lower case. 
 
 ![Example: Republic of Ireland's id](http://ss13.eu/dump/laptop/2015-05-02/2015-05-02_11-43-35.png)
 
 Example: Republic of Ireland's id.
+
+# Attribution
+
+Maps: 
+Europe: https://commons.wikimedia.org/wiki/File:Blank_map_of_Europe.svg (CC BY-SA 2.5)
+Africa: https://commons.wikimedia.org/wiki/File:BlankMap-Africa.svg (Public Domain)
 
 
