@@ -27,7 +27,7 @@ The program with default data
 
 # Identifying countries
 
-The program attempts to map coutnry names with their ISO codes. There are however many ways to write each country's name, and while I attempted to put as many in the list as possible (See: Macedonia, Congo, the Koreas...), I am sure I did not include all of them. So what happens if your visualization has a grey hole, which looks like this: (In this example the data for Albania is missing):
+The program attempts to map country names with their [ISO codes](https://en.wikipedia.org/wiki/ISO_3166-1). There are however many ways to write each country's name, and while I attempted to put as many in the list as possible (See: Macedonia, Congo, the Koreas...), I am sure I did not include all of them. So what happens if your visualization has a grey hole, which looks like this: (In this example the data for Albania is missing):
 
 ![Missing data for Albania](http://ss13.eu/dump/laptop/2015-05-02/2015-05-02_11-24-30.png)
 
@@ -51,7 +51,7 @@ XK,"","","","KOSOVO"
 "XK", "", "", "", "KOSOVO"
 "XK" ,"" , "" , "" , "KOSOVO"
 
-Note 2: The leftmost column must contain the coutnry's ISO code, as those are the names of the elements in the SVG (scalable vector graphic), which makes up the background. If you are editing the SVG, make sure each graphic or layer, which represents a country, is named with the ISO code for that country in lower case. 
+Note 2: The leftmost column must contain the coutnry's [ISO code](https://en.wikipedia.org/wiki/ISO_3166-1), as those are the names of the elements in the SVG (scalable vector graphic), which makes up the background. If you are editing the SVG, make sure each graphic or layer, which represents a country, is named with the ISO code for that country in lower case. 
 
 ![Example: Republic of Ireland's id](http://ss13.eu/dump/laptop/2015-05-02/2015-05-02_11-43-35.png)
 
